@@ -29,8 +29,8 @@ Tasty Bytes was founded in 2020 in the midst of the COVID-19 pandemic. The world
 
 | Model       | Accuracy  | Precision (Class 0)  |  Precision (Class 1)   | Recall (Class 0)   | Recall (Class 1)   |
 | ----------- | :----: | :----: |  :----: | :----: | :----: |
-| Random Forest Regressor | 0.75      | 0.67       | 0.80       | 0.67       | 0.80       |
-| Extra Trees Regressor   | 0.70       | 0.61       | 0.76       | 0.59       | 0.77    |
+| Logistic Regression | 0.75      | 0.67       | 0.80       | 0.67       | 0.80       |
+| Random Forest Classifier   | 0.70       | 0.61       | 0.76       | 0.59       | 0.77    |
 
 1.	Precision: Logistic Regression has higher precision for both classes, meaning it makes fewer false positive predictions.
 2.	Recall: Logistic Regression has a higher recall for Class 1 (high-traffic recipes at 80% of the time), meaning it correctly identifies more high-traffic recipes.
