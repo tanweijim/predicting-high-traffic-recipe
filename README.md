@@ -29,8 +29,8 @@ Tasty Bytes was founded in 2020 in the midst of the COVID-19 pandemic. The world
 
 | Model       | Accuracy  | Precision (Class 0)  |  Precision (Class 1)   | Recall (Class 0)   | Recall (Class 1)   |
 | ----------- | :----: | :----: |  :----: | :----: | :----: |
-| Logistic Regression | 0.75      | 0.67       | 0.80       | 0.67       | 0.80       |
-| Random Forest Classifier   | 0.70       | 0.61       | 0.76       | 0.59       | 0.77    |
+| Logistic Regression | 0.77     | 0.73       | 0.79       | 0.68       | 0.82       |
+| Random Forest Classifier   | 0.72       | 0.69       | 0.74       | 0.60       | 0.81    |
 
 1.	Precision: Logistic Regression has higher precision for both classes, meaning it makes fewer false positive predictions.
 2.	Recall: Logistic Regression has a higher recall for Class 1 (high-traffic recipes at 80% of the time), meaning it correctly identifies more high-traffic recipes.
@@ -41,7 +41,7 @@ Tasty Bytes was founded in 2020 in the midst of the COVID-19 pandemic. The world
 - It is more effective in predicting high-traffic recipes, and also has fewer misclassifications (false positives and false negatives), which reduces the risk of incorrect predictions.
 - Continuously monitor model performance over time to ensure it remains effective as new data comes in. Track key metrics and detect any degradation in performance.
 - Explore feature engineering for further improvements to the model. Test other models to ensure no better alternative exists.
-- Since model achieves 80% recall for high-traffic recipes (Class 1), the business can :
+- Since model achieves 82% recall for high-traffic recipes (Class 1), the business can :
    - Prioritize marketing efforts for high-traffic recipes.
    - Optimize inventory management for ingredients used in these recipes.
    - Improve customer satisfaction by promoting popular recipes.
